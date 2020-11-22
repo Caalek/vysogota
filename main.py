@@ -10,7 +10,6 @@ prefix = 'v!'
 client = commands.Bot(command_prefix = prefix)
 db = MongoClient(os.environ.get('MONGODB_URI'))['vysogota']
 
-
 def check_exists(uid):
     exists = db.users.find_one({'_id': uid})
     print(exists)
