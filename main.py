@@ -12,7 +12,6 @@ db = MongoClient(os.environ.get('MONGODB_URI'))['vysogota']
 
 def check_exists(uid):
     exists = db.users.find_one({'_id': uid})
-    print(exists)
     if exists is not None:
         return True
     else:
@@ -28,8 +27,6 @@ def add_points(uid, amount):
         }
         db.users.insert_one(user)
         db.users.update_one({'_id': uid}, {'$inc': {'points': amount}})
-    print('points added')
-
 
 def random_character():
     with open('characters.json') as f:
@@ -71,7 +68,7 @@ async def guess_character(ctx):
         answer_embed = discord.Embed(
             colour = 0xae986b,
             title = 'Koniec czasu!',
-            description = f'Imię postaci brzmiało **{name}**.',
+            description = f'Postać: **{name}**.',
             )
         await ctx.send(embed = answer_embed)
 
@@ -93,8 +90,10 @@ async def help(ctx):
 async def points(ctx):
     points = db.users.find_one({'_id': ctx.message.author.id})
     if points is None:
-        points = 0
-    embed = discord.Embed(colour = 0xae986b, title = points['points'])
+        num_points = 0
+    else:
+        num_points = points['points']
+    embed = discord.Embed(colour = 0xae986b, title = num_points)
     embed.set_author(icon_url = ctx.message.author.avatar_url, name = str(ctx.message.author))
     await ctx.send(embed = embed)
 
