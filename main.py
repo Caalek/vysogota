@@ -52,7 +52,7 @@ async def guess_character(ctx):
     start = time.time()
 
     def correct_answer(message):
-        if not message.author.bot:
+        if not message.author.bot and message.channel == ctx.message.channel:
             return message.content.lower() in name.lower().split(' ') or message.content.lower() == name.lower()
         else:
             return False
