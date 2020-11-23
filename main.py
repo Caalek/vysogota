@@ -52,7 +52,10 @@ async def guess_character(ctx):
     start = time.time()
 
     def correct_answer(message):
-        return message.content.lower() in name.lower().split(' ')
+        if not message.author.bot:
+            return message.content.lower() in name.lower().split(' ') or message.content.lower() == name.lower()
+        else:
+            return False
 
     try:
         msg = await client.wait_for('message', check = correct_answer, timeout = 10.0)
