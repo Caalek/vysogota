@@ -61,7 +61,7 @@ async def on_ready():
     print('Bot ready.')
 
 @client.command(name = 'kimjestem', aliases = ['kj'])
-async def guess_character(ctx):
+async def _guess_character(ctx):
     character = random_character()
     name = character['name']
     img_url = character['imgUrl']
@@ -108,7 +108,7 @@ async def guess_character(ctx):
         await ctx.send(embed = answer_embed)
 
 @client.command(name = 'pomoc')
-async def help(ctx):
+async def _help(ctx):
     embed = discord.Embed(
         colour = 0xae986b,
         title = 'Vysogota',
@@ -116,25 +116,12 @@ async def help(ctx):
     )
     embed.set_thumbnail(url = client.user.avatar_url)
     embed.add_field(name = 'v!kimjestem', value = 'Rozpoczyna zgadywanie postaci.', inline = False)
-    embed.add_field(name = 'v!punkty', value = 'Pokazuje aktualną ilość punktów', inline = False)
-    embed.add_field(name = 'v!tabela', value = 'Pokazuje globalną tabelę wyników.', inline = False)
+    embed.add_field(name = 'v!tabela', value = 'Pokazuje serwerową tabelę wyników tabelę wyników.', inline = False)
 
-    await ctx.send(embed = embed)
-
-@client.command(name = 'pkt')
-async def points(ctx, user: discord.User = None):
-    user = user or ctx.author
-    points = db.users.find_one({'_id': user.id})
-    if points is None:
-        num_points = 0
-    else:
-        num_points = points['points']
-    embed = discord.Embed(colour = 0xae986b, title = num_points)
-    embed.set_author(icon_url = user.avatar_url, name = str(user))
     await ctx.send(embed = embed)
 
 @client.command(name = 'tabela')
-async def leaderboard_server(ctx):
+async def _leaderboard_server(ctx):
     users = db.users.find({})
     guild_scores = []
     for user in users:
