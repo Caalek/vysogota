@@ -90,14 +90,15 @@ async def help(ctx):
     await ctx.send(embed = embed)
 
 @client.command(name = 'punkty')
-async def points(ctx):
-    points = db.users.find_one({'_id': ctx.message.author.id})
+async def points(ctx, user: discord.User = None):
+    user = user or ctx.author
+    points = db.users.find_one({'_id': user.id})
     if points is None:
         num_points = 0
     else:
         num_points = points['points']
     embed = discord.Embed(colour = 0xae986b, title = num_points)
-    embed.set_author(icon_url = ctx.message.author.avatar_url, name = str(ctx.message.author))
+    embed.set_author(icon_url = user.avatar_url, name = str(user))
     await ctx.send(embed = embed)
 
 @client.command(name = 'tabela')
