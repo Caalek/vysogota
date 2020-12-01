@@ -16,17 +16,38 @@ def check_exists(uid):
         return True
     else:
         return False
-    
-def add_points(uid, amount):
-    if check_exists(uid):
-        db.users.update_one({'_id': uid}, {'$inc': {'points': amount}})
-    else:
-        user = {
+
+def create_user(uid):
+    user = {
             '_id': uid,
-            'points': 0
+            'guilds': []
         }
-        db.users.insert_one(user)
-        db.users.update_one({'_id': uid}, {'$inc': {'points': amount}})
+    db.users.insert_one(user)
+
+def user_assigned_to_guild(uid, guild_id):
+    users_guilds = db.users.find_one({'_id': uid})['guilds']
+    for i in users_guilds:
+        if i['guild_id'] == guild_id:
+            return True
+    else:
+        return False
+
+def assign_to_guild(uid, guild_id):
+    guild = {
+        'guild_id': guild_id,
+        'points': 0,
+        }
+    db.users.update_one({'_id': uid}, {'$push': {'guilds': guild}})
+
+def add_points(uid, guild_id, amount):
+    user = db.users.find_one({'_id': uid})
+    user_guilds = user['guilds']
+    for i in user_guilds:
+        if i['guild_id'] == guild_id:
+            index = user_guilds.index(i)
+            break
+            
+    db.users.update_one({'_id': uid}, {'$inc': {f'guilds.{index}.points': amount}})
 
 def random_character():
     with open('characters.json') as f:
@@ -64,7 +85,18 @@ async def guess_character(ctx):
         points = round(100 - answer_time * 10)
         winner_embed = discord.Embed(colour = 0xae986b, description = f'{winner.mention} wygrał z wynikiem **{points}**.\n Postać: **{name}**.')
         winner_embed.set_author(icon_url = client.user.avatar_url, name = str(client.user))
-        add_points(winner.id, points)
+        guild_id = msg.guild.id
+        uid = winner.id
+
+        if not check_exists(uid):
+            create_user(uid)
+        
+        if user_assigned_to_guild(uid, guild_id):
+            add_points(uid, guild_id, points)
+        else:
+            assign_to_guild(uid, guild_id)
+            add_points(uid, guild_id, points)
+        
         await ctx.send(embed = winner_embed)
     
     except asyncio.TimeoutError:
@@ -89,7 +121,7 @@ async def help(ctx):
 
     await ctx.send(embed = embed)
 
-@client.command(name = 'punkty')
+@client.command(name = 'pkt')
 async def points(ctx, user: discord.User = None):
     user = user or ctx.author
     points = db.users.find_one({'_id': user.id})
@@ -102,17 +134,26 @@ async def points(ctx, user: discord.User = None):
     await ctx.send(embed = embed)
 
 @client.command(name = 'tabela')
-async def leaderboard(ctx):
-    users = db.users.find({}).sort('points', pymongo.DESCENDING)
+async def leaderboard_server(ctx):
+    users = db.users.find({})
+    guild_scores = []
+    for user in users:
+        for guild in user['guilds']:
+            if guild['guild_id'] == ctx.message.guild.id:
+                guild['user'] = await client.fetch_user(user['_id'])
+                guild_scores.append(guild)
+    
     board = ''
     pos = 1
-    for user in users:
-        username = str(await client.fetch_user(user['_id']))
-        points = user['points']
-        entry = f'{pos}. **{username}** - {points}'
+    sorted_guild_scores = sorted(guild_scores, key = lambda k: k['points'], reverse=True) 
+    for score in sorted_guild_scores:
+        user = score['user']
+        points = score['points']
+        entry = f'{pos}. **{user}** - {points}'
         board += f'{entry}\n'
         pos += 1
-    embed = discord.Embed(colour = 0xae986b, title = 'Leaderboard', description = board)
+    
+    embed = discord.Embed(colour = 0xae986b, title = str(ctx.guild), description = board)
     embed.set_thumbnail(url = 'https://i.imgur.com/1Jh5dm9.png')
     embed.set_author(icon_url = client.user.avatar_url, name = str(client.user))
     await ctx.send(embed = embed)
