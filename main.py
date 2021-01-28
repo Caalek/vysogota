@@ -7,7 +7,8 @@ from pymongo import MongoClient
 load_dotenv()
 
 prefix = 'v!'
-client = commands.Bot(command_prefix = prefix)
+intents = discord.Intents.default()
+client = commands.Bot(command_prefix = prefix, intents = intents)
 db = MongoClient(os.environ.get('MONGODB_URI'))['vysogota']
 
 def check_exists(uid):
