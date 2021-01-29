@@ -116,7 +116,7 @@ async def _help(ctx):
         description = 'Vysogota to BOT na Discorda, który sprawdzi twoją wiedzę na temat postaci z uniwersum Wiedźmina.',
     )
     embed.set_thumbnail(url = client.user.avatar_url)
-    embed.add_field(name = 'v!kj', value = 'Rozpoczyna zgadywanie postaci.', inline = False)
+    embed.add_field(name = 'v!kimjestem', value = 'Rozpoczyna zgadywanie postaci.', inline = False)
     embed.add_field(name = 'v!tabela', value = 'Pokazuje serwerową tabelę wyników tabelę wyników.', inline = False)
 
     await ctx.send(embed = embed)
