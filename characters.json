@@ -31,1447 +31,1602 @@
  },
  {
    "_id": 7,
-   "name": "Albrich",
+   "name": "Affan Hillergrand",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/e/ea/Gwent_cardart_nilfgaard_albrich.png"
  },
  {
    "_id": 8,
-   "name": "Alvin",
+   "name": "Aksel Trzy Oczy",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/6/61/People_Alvin_full.png"
  },
  {
    "_id": 9,
-   "name": "Alzur",
+   "name": "Albrich",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/b/b9/Gwent_cardart_neutral_alzur.png"
  },
  {
    "_id": 10,
-   "name": "Anais La Valette",
+   "name": "Alonso Willey",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/c/cf/Tw2_journal_Anais.png"
  },
  {
    "_id": 11,
-   "name": "Aneżka",
+   "name": "Alvin",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/7/7e/Tw2_journal_Anezka.png"
  },
  {
    "_id": 12,
-   "name": "Angouleme",
+   "name": "Alzur",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/e/ea/G_SS_Angouleme.jpg"
  },
  {
    "_id": 13,
-   "name": "Angus",
+   "name": "Anais La Valette",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/7/71/W1_SS_Przewo%C5%BAnik.png"
  },
  {
    "_id": 14,
-   "name": "Anna Henrietta",
+   "name": "Aneżka",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/6/66/W3_SS_Henrietta.png"
  },
  {
    "_id": 15,
-   "name": "Anna Stenger",
+   "name": "Angouleme",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/7/74/W3_SS_Anna_1.png"
  },
  {
    "_id": 16,
-   "name": "Anseis",
+   "name": "Angus",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/5/56/G_SS_Ans%C3%A9is.jpg"
  },
  {
    "_id": 17,
-   "name": "Ardal aep Dahy",
+   "name": "Anna Henrietta",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/3/34/Gwent_cardart_nilfgaard_ardal_aep_dahy.png"
  },
  {
    "_id": 18,
-   "name": "Ariadna an Craite",
+   "name": "Anna Stenger",
    "imgUrl": "https://cdn.discordapp.com/attachments/727321940364099686/727464542300536842/FACH9224.JPEG"
  },
  {
    "_id": 19,
-   "name": "Arjan La Valette",
+   "name": "Anseis",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/a/a9/Tw2_journal_Aryan.png"
  },
  {
    "_id": 20,
-   "name": "Arnjolf Ojcobójca",
+   "name": "Ardal aep Dahy",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/6/63/Gwent_cardart_skellige_arnjolf_the_patricide.png"
  },
  {
    "_id": 21,
-   "name": "Artaud Terranova",
+   "name": "Ariadna an Craite",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/d/d0/Denis_Gordeev_Vilgefortz_Tissaia_de_Vries_Artaud_Terranova.jpeg"
  },
  {
    "_id": 22,
-   "name": "Assire var Anahid",
+   "name": "Arjan La Valette",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/e/eb/W3_SS_Assire_var_Anahid_Gwint.png"
  },
  {
    "_id": 23,
-   "name": "Auberon Muircetach",
+   "name": "Arnaghad",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/c/c5/W3_SS_Auberon_Muircetach.png"
  },
  {
    "_id": 24,
-   "name": "Avallac'h",
+   "name": "Arnjolf Ojcobójca",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/2/26/W3_SS_Avallac%27h.png"
  },
  {
    "_id": 25,
-   "name": "Azar Javed",
+   "name": "Artaud Terranova",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/d/db/Azar.png"
  },
  {
    "_id": 26,
-   "name": "Barnaba Bazyli",
+   "name": "Assire var Anahid",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/3/33/Tw3_journal_majordomus.png"
  },
  {
    "_id": 27,
-   "name": "Bart",
+   "name": "Auberon Muircetach",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/3/3a/Tw3_journal_bart_troll.png"
  },
  {
    "_id": 28,
-   "name": "Belohun",
+   "name": "Avallac'h",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/2/2a/Gwent_cardart_northern_king_belohun.png"
  },
  {
    "_id": 29,
-   "name": "Berengar",
+   "name": "Azar Javed",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/0/07/People_Berengar_full.png"
  },
  {
    "_id": 30,
-   "name": "Bernard Loredo",
+   "name": "Barnaba Bazyli",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/b/bc/Tw2_journal_Loredo.png"
  },
  {
    "_id": 31,
-   "name": "Berthold Candeleria",
+   "name": "Barnaba Beckenbauer ",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/4/43/W2_SS_Berthold_Candeleria.png"
  },
  {
    "_id": 32,
-   "name": "Bincy Blumerholdt",
+   "name": "Bart",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/a/aa/Gwent_cardart_syndicate_Bincy_Blumerholdt.png"
  },
  {
    "_id": 33,
-   "name": "Birna Bran",
+   "name": "Belohun",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/e/e0/W3_SS_Birna.png"
  },
  {
    "_id": 34,
-   "name": "Boholt",
+   "name": "Berengar",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/b/b3/Netflix_The_Witcher_Boholt.png"
  },
  {
    "_id": 35,
-   "name": "Borch Trzy Kawki",
+   "name": "Bernard Loredo",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/2/28/Borch-_EN.jpg"
  },
  {
    "_id": 36,
-   "name": "Boussy La Valette",
+   "name": "Berthold Candeleria",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/6/6f/Tw2_journal_Boussy.png"
  },
  {
    "_id": 37,
-   "name": "Braenn",
+   "name": "Bincy Blumerholdt",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/e/ec/W3_SS_Braenn_Gwint.png"
  },
  {
    "_id": 38,
-   "name": "Bram",
+   "name": "Birna Bran",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/a/ab/Tw3_bram.png"
  },
  {
    "_id": 39,
-   "name": "Bran ",
+   "name": "Boholt",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/b/bc/Tw3_journal_kingbran.png"
  },
  {
    "_id": 40,
-   "name": "Bronibor",
+   "name": "Borch Trzy Kawki",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/c/ce/FA_Bronibor.jpg"
  },
  {
    "_id": 41,
-   "name": "Brouver Hoog",
+   "name": "Boussy La Valette",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/0/03/G_SS_Brouver_Hogg.jpg"
  },
  {
    "_id": 42,
-   "name": "Cahir",
+   "name": "Braenn",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/2/28/G_SS_Cahir_Mawr_Dyffryn.jpg"
  },
  {
    "_id": 43,
-   "name": "Calanthe",
+   "name": "Bram",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/3/3e/G_SS_Calanthe.jpg"
  },
  {
    "_id": 44,
-   "name": "Caleb Menge",
+   "name": "Bran ",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/3/38/Tw3_journal_caleb_menge.png"
  },
  {
    "_id": 45,
-   "name": "Cantarella",
+   "name": "Brathens",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/f/f2/Tw3_Carthia_van_Canten.jpg"
  },
  {
    "_id": 46,
-   "name": "Caranthir",
+   "name": "Brehen",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/9/97/G_SS_Caranthir_Ar-Feiniel.jpg"
  },
  {
    "_id": 47,
-   "name": "Carmen",
+   "name": "Bronibor",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/1/16/People_Carmen_full.png"
  },
  {
    "_id": 48,
-   "name": "Carmen",
+   "name": "Brouver Hoog",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/4/4a/W1_SS_Carmen_cutscena.png"
  },
  {
    "_id": 49,
-   "name": "Cecil Burdon",
+   "name": "Caesar Bilzen",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/a/a8/W2_SS_Cecil_Burdon_1.png"
  },
  {
    "_id": 50,
-   "name": "Cedric",
+   "name": "Cahir",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/b/bf/W2_SS_Cedric_1.png"
  },
  {
    "_id": 51,
-   "name": "Cerys an Craite",
+   "name": "Calanthe",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/3/35/Tw3_journal_cerys.png"
  },
  {
    "_id": 52,
-   "name": "Chappelle",
+   "name": "Caleb Menge",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/0/07/Tw3_journal_chappelle.png"
  },
  {
    "_id": 53,
-   "name": "Chireadan",
+   "name": "Cantarella",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/8/89/W1_SS_Elf.png"
  },
  {
    "_id": 54,
-   "name": "Ciaran aep Easnillien",
+   "name": "Caranthir",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/1/12/W2_SS_Ciaran_1.png"
  },
  {
    "_id": 55,
-   "name": "Ciri",
+   "name": "Carmen",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/e/e6/W3_SS_Ciri.png"
  },
  {
    "_id": 56,
-   "name": "Codringer",
+   "name": "Carmen",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/4/4e/FA_Codringher.jpg"
  },
  {
    "_id": 57,
-   "name": "Coen",
+   "name": "Cecil Burdon",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/5/56/FA_G_Coen.jpg"
  },
  {
    "_id": 58,
-   "name": "Corine Tilly",
+   "name": "Cedric",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/1/1e/Tw3_journal_corinnetilly.png"
  },
  {
    "_id": 59,
-   "name": "Crach an Craite",
+   "name": "Cerys an Craite",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/a/af/Tw3_journal_crach.png"
  },
  {
    "_id": 60,
-   "name": "Cynthia",
+   "name": "Chappelle",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/f/f2/Tw2_Cynthia_in_mage_attire.png"
  },
  {
    "_id": 61,
-   "name": "Cyrus Engelkind Hemmelfart",
+   "name": "Chireadan",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/6/69/Gwent_cardart_syndicate_hemmelfart.png"
  },
  {
    "_id": 62,
-   "name": "Czarna Rayla",
+   "name": "Ciaran aep Easnillien",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/2/25/Gwent_cardart_northern_black_rayla.png"
  },
  {
    "_id": 63,
-   "name": "Dagur Dwa Ostrza",
+   "name": "Ciri",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/6/64/Gwent_cardart_skellige_dagur_two_blades.png"
  },
  {
    "_id": 64,
-   "name": "Damien de la Tour",
+   "name": "Codringer",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/d/d7/W3_SS_Damien.png"
  },
  {
    "_id": 65,
-   "name": "Declan Leuvaarden",
+   "name": "Coen",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/d/db/People_Leuvaarden_full.png"
  },
  {
    "_id": 66,
-   "name": "Demawend",
+   "name": "Corine Tilly",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/e/e0/G_SS_Demawend.jpg"
  },
  {
    "_id": 67,
-   "name": "Dennis Cranmer",
+   "name": "Cosimo Malaspina",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/2/27/G_SS_Dennis_Cranmer.jpg"
  },
  {
    "_id": 68,
-   "name": "Derae",
+   "name": "Crach an Craite",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/8/8c/Tw2_journal_Derae.png"
  },
  {
    "_id": 69,
-   "name": "Detmold",
+   "name": "Cynthia",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/d/de/Tw2_full_Dethmold_1.png"
  },
  {
    "_id": 70,
-   "name": "Dettlaff van der Eretein",
+   "name": "Cyprian Willey",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/4/45/W3_SS_Dettlaff.png"
  },
  {
    "_id": 71,
-   "name": "Dhunda",
+   "name": "Cyrus Engelkind Hemmelfart",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/7/74/W1_SS_Dhunda.png"
  },
  {
    "_id": 72,
-   "name": "Djenge Frett",
+   "name": "Czarna Rayla",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/b/bb/Tw3_djenge_frett.png"
  },
  {
    "_id": 73,
-   "name": "Dolores Reardon",
+   "name": "Dagur Dwa Ostrza",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/3/3f/Tw3_dolores_reardon.png"
  },
  {
    "_id": 74,
-   "name": "Donar an Hindar",
+   "name": "Damien de la Tour",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/a/ab/W3_SS_Donar_an_Hindar.png"
  },
  {
    "_id": 75,
-   "name": "Donimir z Troy",
+   "name": "Declan Leuvaarden",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/8/8e/G_SS_Donimir_z_Troy.jpg"
  },
  {
    "_id": 76,
-   "name": "Dorregaray",
+   "name": "Demawend",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/8/87/G_SS_Dorregaray_z_Vole.jpg"
  },
  {
    "_id": 77,
-   "name": "Draig Bon-Dhu",
+   "name": "Dennis Cranmer",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/2/26/Tw3_cardart_skellige_draig.png"
  },
  {
    "_id": 78,
-   "name": "Dudu Bibbervelt",
+   "name": "Derae",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/e/ec/W3_SS_Dudu.png"
  },
  {
    "_id": 79,
-   "name": "Dune Vildenvert",
+   "name": "Detmold",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/f/f3/Tw3_dune_vildenvert.png"
  },
  {
    "_id": 80,
-   "name": "Edna var Attre",
+   "name": "Dettlaff van der Eretein",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/1/11/Tw3_edna_var_attre.png"
  },
  {
    "_id": 81,
-   "name": "Egan",
+   "name": "Dhunda",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/8/89/G_SS_Egan.jpg"
  },
  {
    "_id": 82,
-   "name": "Eibhear Hattori",
+   "name": "Djenge Frett",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/5/5b/G_SS_%C3%89ibhear_Hattori.jpg"
  },
  {
    "_id": 83,
-   "name": "Eist Tuirseach",
+   "name": "Dolores Reardon",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/b/b3/Netflix_eist.jpg"
  },
  {
    "_id": 84,
-   "name": "Eithne",
+   "name": "Donar an Hindar",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/6/65/Tw3_cardart_scoiatael_eithne.png"
  },
  {
    "_id": 85,
-   "name": "Eldain",
+   "name": "Donimir z Troy",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/2/2c/Gwent_cardart_scoiatael_eldain.png"
  },
  {
    "_id": 86,
-   "name": "Ele'yas",
+   "name": "Dorregaray",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/a/aa/G_SS_Ele%27yas.jpg"
  },
  {
    "_id": 87,
-   "name": "Elihal",
+   "name": "Draig Bon-Dhu",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/2/2c/Tw3_journal_elihal.png"
  },
  {
    "_id": 88,
-   "name": "Elza",
+   "name": "Dudu Bibbervelt",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/b/bd/W3_SS_Elza.png"
  },
  {
    "_id": 89,
-   "name": "Emhyr var Emreis",
+   "name": "Dune Vildenvert",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/c/c9/W3_SS_Emhyr_1.png"
  },
  {
    "_id": 90,
-   "name": "Emiel Regis Rohellec Terzieff-Godefroy",
+   "name": "Edna var Attre",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/1/14/W3_SS_Regis.png"
  },
  {
    "_id": 91,
-   "name": "Enzo Etcheverry",
+   "name": "Egan",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/c/cc/W2_SS_Enzo_Etcheverry.png"
  },
  {
    "_id": 92,
-   "name": "Eredin",
+   "name": "Eibhear Hattori",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/a/ad/W3_SS_Eredin.png"
  },
  {
    "_id": 93,
-   "name": "Erkyn von Blunt",
+   "name": "Eist Tuirseach",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/a/ae/W1_SS_Erkyn_von_Blunt.png"
  },
  {
    "_id": 94,
-   "name": "Eskel",
+   "name": "Eithne",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/9/9b/Tw3_journal_eskel.png"
  },
  {
    "_id": 95,
-   "name": "Essi Daven",
+   "name": "Eldain",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/3/3f/FA_G_Essi_Daven.jpg"
  },
  {
    "_id": 96,
-   "name": "Esterad Thyssen",
+   "name": "Ele'yas",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/0/0e/W3_SS_Esterad_Gwint.png"
  },
  {
    "_id": 97,
-   "name": "Eyck z Denesle",
+   "name": "Elihal",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/4/4d/Gwent_cardart_neutral_eyck_of_denesle.jpg"
  },
  {
    "_id": 98,
-   "name": "Falbeson",
+   "name": "Elza",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/e/e3/Gwent_cardart_nilfgaard_falbeson.png"
  },
  {
    "_id": 99,
-   "name": "Falibor",
+   "name": "Emhyr var Emreis",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/3/3b/Gwent_cardart_northern_falibor.png"
  },
  {
    "_id": 100,
-   "name": "Feldmarszałek Duda",
+   "name": "Emiel Regis Rohellec Terzieff-Godefroy",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/b/b1/G_SS_Duda_Towarzysz.jpg"
  },
  {
    "_id": 101,
-   "name": "Felicia Cori",
+   "name": "Enzo Etcheverry",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/0/07/Tw3_journal_feliciacori.png"
  },
  {
    "_id": 102,
-   "name": "Fenn",
+   "name": "Eredin",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/6/6b/FA_G_Jakub_Fenn.jpg"
  },
  {
    "_id": 123,
-   "name": "Fergus Graem",
+   "name": "Erkyn von Blunt",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/c/c7/W3_SS_Fergus_Graem.png"
  },
  {
    "_id": 124,
-   "name": "Ffion var Gaernel",
+   "name": "Erland z Larvik",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/0/0e/Gwent_cardart_nilfgaard_ffion_var_gaernel.jpg"
  },
  {
    "_id": 125,
-   "name": "Filavandrel aen Fidhail",
+   "name": "Eskel",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/9/91/G_SS_Filavandrel.jpg"
  },
  {
    "_id": 126,
-   "name": "Filip Stenger",
+   "name": "Essi Daven",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/6/6f/W3_SS_Krwawy_Baron.png"
  },
  {
    "_id": 127,
-   "name": "Filippa Eilhart",
+   "name": "Esterad Thyssen",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/1/12/Tw3_journal_philippa.png"
  },
  {
    "_id": 128,
-   "name": "Foltest",
+   "name": "Eyck z Denesle",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/d/d7/G_SS_Kr%C3%B3l_Foltest.jpg"
  },
  {
    "_id": 129,
-   "name": "Francesca Findabair",
+   "name": "Falbeson",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/2/2b/Gwent_cardart_scoiatael_francesca.jpg"
  },
  {
    "_id": 130,
-   "name": "Fringilla Vigo",
+   "name": "Falibor",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/4/4b/Tw3_journal_fringilla.png"
  },
  {
    "_id": 131,
-   "name": "Gabor Zigrin",
+   "name": "Feldmarszałek Duda",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/d/d0/Gwent_cardart_scoiatael_gabor_zigrin.png"
  },
  {
    "_id": 132,
-   "name": "Gaetan",
+   "name": "Felicia Cori",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/2/27/W3_SS_Gaetan_2.png"
  },
  {
    "_id": 133,
-   "name": "Garwena",
+   "name": "Fenn",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/d/da/W2_SS_Kajetan_z_Cleves.png"
  },
  {
    "_id": 134,
-   "name": "Gascon Brossard",
+   "name": "Fergus Graem",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/a/ab/Gwent_cardart_neutral_gascon.png"
  },
  {
    "_id": 135,
-   "name": "Gaunter O'Dim",
+   "name": "Fergus var Emreis",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/f/f3/Tw3_journal_mirrorman.png"
  },
  {
    "_id": 136,
-   "name": "Ge'els",
+   "name": "Ffion var Gaernel",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/4/46/W3_SS_Ge%27els_1.png"
  },
  {
    "_id": 137,
-   "name": "Geralt z Rivii",
+   "name": "Filavandrel aen Fidhail",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/8/88/TW1_Geralt_7.jpg"
  },
  {
    "_id": 138,
-   "name": "Giselher",
+   "name": "Filip Stenger",
    "imgUrl": "https://static.wikia.nocookie.net/witcher_gamepedia/images/7/70/Giselher_by_JustAnor.jpg"
  },
  {
    "_id": 139,
-   "name": "Golan Vivaldi",
+   "name": "Filippa Eilhart",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/8/82/People_Vivaldi_full.png"
  },
  {
    "_id": 140,
-   "name": "Graden",
+   "name": "Foltest",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/4/45/Tw3_journal_graden.png"
  },
  {
    "_id": 141,
-   "name": "Guillaume de Launfal",
+   "name": "Francesca Findabair",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/b/ba/W3_SS_Guillaume.png"
  },
  {
    "_id": 142,
-   "name": "Guślarz",
+   "name": "Fringilla Vigo",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/b/b4/Tw3_journal_pellar.png"
  },
  {
    "_id": 143,
-   "name": "Harald an Craite",
+   "name": "Gabor Zigrin",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/3/33/Gwent_cardart_skellige_harald_an_craite.jpg"
  },
  {
    "_id": 144,
-   "name": "Haren Brogg",
+   "name": "Gaetan",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/2/2e/People_Haren_full.png"
  },
  {
    "_id": 145,
-   "name": "Hendrik",
+   "name": "Garwena",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/0/0c/Tw3_journal_hendrik.png"
  },
  {
    "_id": 146,
-   "name": "Henryk var Attre",
+   "name": "Gascon Brossard",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/8/89/Gwent_cardart_nilfgaard_henry_var_attre.jpg"
  },
  {
    "_id": 147,
-   "name": "Henselt",
+   "name": "Gaunter O'Dim",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/9/9a/G_SS_Kr%C3%B3l_Henselt.jpg"
  },
  {
    "_id": 148,
-   "name": "Hierofant",
+   "name": "Ge'els",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/4/47/W1_SS_Hierofant.png"
  },
  {
    "_id": 149,
-   "name": "Hjalmar an Craite",
+   "name": "Geralt z Rivii",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/2/23/Tw3_journal_hjalmar.png"
  },
  {
    "_id": 150,
-   "name": "Hjort",
+   "name": "Gezras Leidańczyk",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/e/e8/W3_SS_Hjort_1.png"
  },
  {
    "_id": 151,
-   "name": "Horst Borsody",
+   "name": "Giselher",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/e/e5/W3_SS_Horst_Borsody_2.png"
  },
  {
    "_id": 152,
-   "name": "Hrabia Caldwell",
+   "name": "Golan Vivaldi",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/f/f0/Gwent_cardart_neutral_count_caldwell.png"
  },
  {
    "_id": 153,
-   "name": "Hrabia Tybalt",
+   "name": "Graden",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/8/8b/Tw3_Count_Tybalt.png"
  },
  {
    "_id": 154,
-   "name": "Hubert Rejk",
+   "name": "Guillaume de Launfal",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/8/8b/Tw3_journal_coroner.png"
  },
  {
    "_id": 155,
-   "name": "Ida Emaen",
+   "name": "Guślarz",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/0/09/G_SS_Ida_Emean_aep_Sivney.jpg"
  },
  {
    "_id": 156,
-   "name": "Ihuarraquax",
+   "name": "Harald an Craite",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/0/08/G_SS_Ihuarraquax.jpg"
  },
  {
    "_id": 157,
-   "name": "Ildiko Breckl",
+   "name": "Haren Brogg",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/1/11/Gwent_cardart_northern_ildiko.png"
  },
  {
    "_id": 158,
-   "name": "Imke",
+   "name": "Hendrik",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/8/89/Gwent_cardart_syndicate_Imke.png"
  },
  {
    "_id": 159,
-   "name": "Imlerith",
+   "name": "Henryk var Attre",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/6/68/W3_SS_Imlerith.png"
  },
  {
    "_id": 160,
-   "name": "Ingrid Vegelbud",
+   "name": "Henselt z Kaedwen",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/e/ee/Tw3_ingrid_vegelbud.png"
  },
  {
    "_id": 161,
-   "name": "Iorweth",
+   "name": "Hierofant",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/3/3f/Tw2_full_Iorveth.png"
  },
  {
    "_id": 162,
-   "name": "Iris Renarde",
+   "name": "Hjalmar an Craite",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/2/29/W3_SS_Irina_Renarde.png"
  },
  {
    "_id": 163,
-   "name": "Iris von Everec",
+   "name": "Hjort",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/d/dd/W3_SS_Iris_1.png"
  },
  {
    "_id": 164,
-   "name": "Isbel z Hagge",
+   "name": "Horst Borsody",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/1/18/Gwent_cardart_nilfgaard_isbel.png"
  },
  {
    "_id": 165,
-   "name": "Isengrim Faolitiarna",
+   "name": "Hrabia Caldwell",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/a/a7/G_SS_Isengrim_Faoltiarna.jpg"
  },
  {
    "_id": 166,
-   "name": "Isidor Kay",
+   "name": "Hrabia Tybalt",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/f/f5/Tw2_journal_Isidorkay.png"
  },
  {
    "_id": 167,
-   "name": "Iskra",
+   "name": "Hubert Rejk",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/b/b5/Denis_Gordeev_Iskra.jpeg"
  },
  {
    "_id": 168,
-   "name": "Istredd",
+   "name": "Ida Emaen",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/e/eb/Netflix_The_Witcher_Istredd.png"
  },
  {
    "_id": 169,
-   "name": "Ithlinna",
+   "name": "Idarran z Ulivo",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/7/72/G_SS_Ithlinne_Aegli.jpg"
  },
  {
    "_id": 170,
-   "name": "Iwo z Belhaven",
+   "name": "Ihuarraquax",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/3/32/Gwent_cardart_neutral_ivo_of_belhaven.png"
  },
  {
    "_id": 171,
-   "name": "Jakub de Aldersberg",
+   "name": "Ildiko Breckl",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/6/60/People_GM_full.png"
  },
  {
    "_id": 172,
-   "name": "Jan Natalis",
+   "name": "Imke",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/7/72/G_SS_Jan_Natalis.jpg"
  },
  {
    "_id": 173,
-   "name": "Jarre",
+   "name": "Imlerith",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/b/b9/L_I_Jarre_i_Dennis_Cranmer.jpg"
  },
  {
    "_id": 174,
-   "name": "Jaskier",
+   "name": "Ingrid Vegelbud",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/9/99/G_SS_Jaskier.jpg"
  },
  {
    "_id": 175,
-   "name": "Joachim von Gratz",
+   "name": "Iorweth",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/8/85/W3_SS_Joachim_von_Gratz.png"
  },
  {
    "_id": 176,
-   "name": "Julia Abatemarco",
+   "name": "Iris Renarde",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/8/85/FA_Julia_Abatemarco.jpg"
  },
  {
    "_id": 177,
-   "name": "Jutta an Dimun",
+   "name": "Iris von Everec",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/7/71/G_SS_Jutta_an_Dimun.png"
  },
  {
    "_id": 178,
-   "name": "Kajetan z Cleves Młody",
+   "name": "Isbel z Hagge",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/d/da/W2_SS_Kajetan_z_Cleves.png"
  },
  {
    "_id": 179,
-   "name": "Keira Metz",
+   "name": "Isengrim Faolitiarna",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/6/6f/Tw3_journal_keira.png"
  },
  {
    "_id": 180,
-   "name": "Król Żebraków",
+   "name": "Isidor Kay",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/a/a3/Tw3_journal_bedlam.png"
  },
  {
    "_id": 181,
-   "name": "Królowa Meve",
+   "name": "Iskra",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/c/c8/Gwent_cardart_northern_meve_longsword.png"
  },
  {
    "_id": 182,
-   "name": "Książę Stennis",
+   "name": "Istredd",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/2/22/Tw2_journal_Stennis.png"
  },
  {
    "_id": 183,
-   "name": "Książę Vilem",
+   "name": "Ithlinna",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/c/c4/Gwent_cardart_neutral_prince_villem.jpg"
  },
  {
    "_id": 184,
-   "name": "Kuchta",
+   "name": "Ivar Złe Oko",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/7/76/W3_SS_Kuchta.png"
  },
  {
    "_id": 185,
-   "name": "Lambert",
+   "name": "Iwo z Belhaven",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/c/cd/Tw3_journal_lambert.png"
  },
  {
    "_id": 186,
-   "name": "Lara Dorren",
+   "name": "Jakub de Aldersberg",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/7/78/FA_G_Lara_Dorren.jpg"
  },
  {
    "_id": 187,
-   "name": "Lasota",
+   "name": "Jan Natalis",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/0/0d/Tw2_journal_Lasota.png"
  },
  {
    "_id": 188,
-   "name": "Leo",
+   "name": "Jarre",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/d/d9/People_Leo_full.png"
  },
  {
    "_id": 189,
-   "name": "Leo Bonhart",
+   "name": "Jaskier",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/3/3e/Gwent_cardart_nilfgaard_leo_bonhart.jpg"
  },
  {
    "_id": 190,
-   "name": "Letande Avet",
+   "name": "Joachim von Gratz",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/2/27/W2_SS_Letande_Avet.png"
  },
  {
    "_id": 191,
-   "name": "Louis Merse",
+   "name": "Julia Abatemarco",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/9/9a/Tw2_journal_Louismerse.png"
  },
  {
    "_id": 192,
-   "name": "Lugos Szalony",
+   "name": "Jutta an Dimun",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/e/e8/W3_SS_Lugos_Szalony.png"
  },
  {
    "_id": 193,
-   "name": "Lydia van Bredevoort",
+   "name": "Kajetan z Cleves Młody",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/a/a0/FA_G_Lydia_van_Bredevoort.jpg"
  },
  {
    "_id": 194,
-   "name": "Lytta Neyd Koral",
+   "name": "Keira Metz",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/7/72/Gwent_cardart_skellige_coral.jpg"
  },
  {
    "_id": 195,
-   "name": "Maćko z Lisich Dołów",
+   "name": "Keldar",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/1/10/Gwent_cardart_neutral_germain_piquant.jpg"
  },
  {
    "_id": 196,
-   "name": "Madame Luiza",
+   "name": "Knut Okrutny",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/2/29/Gwent_cardart_syndicate_Madame_Luiza.png"
  },
  {
    "_id": 197,
-   "name": "Magister",
+   "name": "Kolgrim",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/d/df/G_SS_Magister.png"
  },
  {
    "_id": 198,
-   "name": "Malena",
+   "name": "Król Roegner",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/d/de/W2_SS_Malena.png"
  },
  {
    "_id": 199,
-   "name": "Margarita Laux Antille",
+   "name": "Król Żebraków",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/9/97/Tw3_journal_margarita.png"
  },
  {
    "_id": 200,
-   "name": "Maria Louisa La Valette",
+   "name": "Królowa Meve",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/6/66/Tw3_journal_louisa.png"
  },
  {
    "_id": 201,
-   "name": "Marietta Loredo",
+   "name": "Książę Stennis",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/3/33/Tw2_journal_Marietta.png"
  },
  {
    "_id": 202,
-   "name": "Marti Sodergren",
+   "name": "Książę Vilem",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/b/be/Denis_Gordeev_Marti_sodergren_sabrina_glevissig.jpeg"
  },
  {
    "_id": 203,
-   "name": "Mavrick",
+   "name": "Kuchta",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/a/a3/Tw2_journal_Mavrick.png"
  },
  {
    "_id": 204,
-   "name": "Menno Coehorn",
+   "name": "Lambert",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/7/72/G_SS_Menno_Coehoorn.jpg"
  },
  {
    "_id": 205,
-   "name": "Mikul",
+   "name": "Lara Dorren",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/4/45/W1_SS_Mikul.png"
  },
  {
    "_id": 206,
-   "name": "Milaen",
+   "name": "Lasota",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/1/13/Gwent_cardart_scoiatael_milaen.png"
  },
  {
    "_id": 207,
-   "name": "Milo Vanderbeck",
+   "name": "Leo",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/8/8d/FA_G_Milo_Vanderbeck.jpg"
  },
  {
    "_id": 208,
-   "name": "Milton de Peyrac-Peyran",
+   "name": "Leo Bonhart",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/4/4c/W3_SS_Milton.png"
  },
  {
    "_id": 209,
-   "name": "Milva",
+   "name": "Letande Avet",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/7/72/W3_SS_Milva_Gwint.png"
  },
  {
    "_id": 210,
-   "name": "Miriam Wielki Cyc",
+   "name": "Letho z Gulety",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/f/fd/W2_SS_Miriam.png"
  },
  {
    "_id": 211,
-   "name": "Mistle",
+   "name": "Louis Merse",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/4/4e/Denis_Gordeev_Mistle_and_Ciri.jpeg"
  },
  {
    "_id": 212,
-   "name": "Moreelse",
+   "name": "Lugos Szalony",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/6/63/Gwent_cardart_syndicate_moreelse.png"
  },
  {
    "_id": 213,
-   "name": "Moren",
+   "name": "Lydia van Bredevoort",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/d/d2/W1_SS_Driada.png"
  },
  {
    "_id": 214,
-   "name": "Moril",
+   "name": "Lytta Neyd Koral",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/9/93/W2_SS_Moril.png"
  },
  {
    "_id": 215,
-   "name": "Morkvarg",
+   "name": "Maćko z Lisich Dołów",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/3/37/G_SS_Morkvarg.jpg"
  },
  {
    "_id": 216,
-   "name": "Morvran Voorhis",
+   "name": "Madame Luiza",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/d/d7/W3_SS_Morvran.png"
  },
  {
    "_id": 217,
-   "name": "Mozaik",
+   "name": "Magister",
    "imgUrl": "https://i.imgur.com/GjM7qq7.png"
  },
  {
    "_id": 218,
-   "name": "Myron",
+   "name": "Malena",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/c/cb/W2_SS_Myron.png"
  },
  {
    "_id": 219,
-   "name": "Myszowór",
+   "name": "Maraal",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/7/7b/W3_SS_Myszow%C3%B3r.png"
  },
  {
    "_id": 220,
-   "name": "Nenneke",
+   "name": "Margarita Laux Antille",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/f/f3/Gwent_cardart_northern_nenneke.png"
  },
  {
    "_id": 221,
-   "name": "Niszczuka",
+   "name": "Maria Louisa La Valette",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/8/87/Tw2_Gar.png"
  },
  {
    "_id": 222,
-   "name": "Niunia",
+   "name": "Marietta Loredo",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/e/e3/W2_SS_Niunia.png"
  },
  {
    "_id": 223,
-   "name": "Norman Sador",
+   "name": "Marti Sodergren",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/b/b1/W2_SS_Norman_Sador.jpg"
  },
  {
    "_id": 224,
-   "name": "Odo",
+   "name": "Mavrick",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/a/a1/People_Odo_full.png"
  },
  {
    "_id": 225,
-   "name": "Odolan",
+   "name": "Menno Coehorn",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/8/8c/Tw3_odolan.png"
  },
  {
    "_id": 226,
-   "name": "Odrin",
+   "name": "Mikul",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/d/da/Tw2_journal_Odrin.png"
  },
  {
    "_id": 227,
-   "name": "Olcan",
+   "name": "Milaen",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/7/77/W2_SS_Olcan.png"
  },
  {
    "_id": 228,
-   "name": "Olgierd von Everec",
+   "name": "Milo Vanderbeck",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/b/b4/W3_SS_Olgierd_1.png"
  },
  {
    "_id": 229,
-   "name": "Ortolan",
+   "name": "Milton de Peyrac-Peyran",
    "imgUrl": "https://i.imgur.com/4Pzj1U2.jpg"
  },
  {
    "_id": 230,
-   "name": "Otrygg an Hindar",
+   "name": "Milva",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/c/c5/Tw3_journal_otrygg.png"
  },
  {
    "_id": 231,
-   "name": "Palmerin de Launfal",
+   "name": "Miriam Wielki Cyc",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/6/63/W3_SS_Palmerin.png"
  },
  {
    "_id": 232,
-   "name": "Pani Jeziora",
+   "name": "Mistle",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/0/0a/G_SS_Pani_Jeziora.jpg"
  },
  {
    "_id": 233,
-   "name": "Pavetta",
+   "name": "Moreelse",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/2/23/L_I_CZ_Pavetta_2.jpg"
  },
  {
    "_id": 234,
-   "name": "Percival Schuttenbach",
+   "name": "Moren",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/2/21/G_SS_Percival_Schuttenbach.png"
  },
  {
    "_id": 235,
-   "name": "Peter Saar Gwynlew",
+   "name": "Moril",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/8/86/G_SS_Peter_Saar_Gwynlew.jpg"
  },
  {
    "_id": 236,
-   "name": "Płotka",
+   "name": "Morkvarg",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/2/22/W3_SS_P%C5%82otka_1.png"
  },
  {
    "_id": 237,
-   "name": "Priscilla",
+   "name": "Morvran Voorhis",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/4/40/W3_SS_Priscilla.png"
  },
  {
    "_id": 238,
-   "name": "Prządka",
+   "name": "Mozaik",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/c/c1/W3_SS_Prz%C4%85dka.png"
  },
  {
    "_id": 239,
-   "name": "Radowid",
+   "name": "Myron",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/1/14/W3_SS_Radowid.png"
  },
  {
    "_id": 240,
-   "name": "Raymond Maarloeve",
+   "name": "Myszowór",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/e/ea/People_Raymond_full.png"
  },
  {
    "_id": 241,
-   "name": "Remi Vileroy",
+   "name": "Nenneke",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/3/30/Prima_Guide_Remi.png"
  },
  {
    "_id": 242,
-   "name": "Renauld aep Matsen",
+   "name": "Niszczuka",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/1/15/Tw2_journal_Renuald.png"
  },
  {
    "_id": 243,
-   "name": "Renfri",
+   "name": "Nithral",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/e/ec/TW1_Renfri.jpg"
  },
  {
    "_id": 244,
-   "name": "Rico Meiersdorf",
+   "name": "Niunia",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/7/74/Gwent_cardart_syndicate_Rico_Meiersdorf.png"
  },
  {
    "_id": 245,
-   "name": "Rience",
+   "name": "Norman Sador",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/9/9c/G_SS_Rience.jpg"
  },
  {
    "_id": 246,
-   "name": "Roderick de Wett",
+   "name": "Odo",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/8/89/People_DeWett_full.png"
  },
  {
    "_id": 247,
-   "name": "Roegner",
+   "name": "Odolan",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/b/b6/G_SS_Kr%C3%B3l_Roegner.jpg"
  },
  {
    "_id": 248,
-   "name": "Ronvid z Małego Łęgu",
+   "name": "Odrin",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/6/60/Gwent_cardart_northern_ronvid_the_incessant.jpg"
  },
  {
    "_id": 249,
-   "name": "Rosa Var Attre",
+   "name": "Olcan",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/0/0d/Tw3_rosa_var_attre.png"
  },
  {
    "_id": 250,
-   "name": "Rupert Brandhuber",
+   "name": "Olgierd von Everec",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/9/96/Tw2_journal_Rupert.png"
  },
  {
    "_id": 251,
-   "name": "Sabrina Glevissig",
+   "name": "Ophelie van Moorlehem",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/4/41/Gwent_cardart_northern_sabrinas_specter.jpg"
  },
  {
    "_id": 252,
-   "name": "Sambor",
+   "name": "Oriana",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/8/81/W2_SS_Sambor_1.png"
  },
  {
    "_id": 253,
-   "name": "Saskia ",
+   "name": "Ortolan",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/3/3f/G_SS_Saskia.jpg"
  },
  {
    "_id": 254,
-   "name": "Savolla",
+   "name": "Otrygg an Hindar",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/4/45/People_Savolla.png"
  },
  {
    "_id": 255,
-   "name": "Seltkirk z Gulety",
+   "name": "Palmerin de Launfal",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/1/16/G_SS_Seltkirk.png"
  },
  {
    "_id": 256,
-   "name": "Serrit",
+   "name": "Pani Jeziora",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/5/59/Tw2_journal_Serrit.png"
  },
  {
    "_id": 257,
-   "name": "Shani",
+   "name": "Pavetta",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/c/c1/HoS_shani_cutout.png"
  },
  {
    "_id": 258,
-   "name": "Sheala de Tancarville",
+   "name": "Percival Schuttenbach",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/1/17/Tw2_journal_Sile.png"
  },
  {
    "_id": 259,
-   "name": "Sheldon Skaggs",
+   "name": "Peter Saar Gwynlew",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/5/52/W2_SS_Sheldon_Skaggs.png"
  },
  {
    "_id": 260,
-   "name": "Shilard Fitz-Oesterlen",
+   "name": "Philippe van Moorlehem",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/5/57/G_SS_Shilard.jpg"
  },
  {
    "_id": 261,
-   "name": "Shirru",
+   "name": "Płotka",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/e/e7/W3_SS_Schirru_Gwint.png"
  },
  {
    "_id": 262,
-   "name": "Siemko",
+   "name": "Priscilla",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/5/5a/People_Jethro_ee.png"
  },
  {
    "_id": 263,
-   "name": "Sigismund Dijkstra",
+   "name": "Prządka",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/1/1b/W3_SS_Dijkstra_1.png"
  },
  {
    "_id": 264,
-   "name": "Skalen Burdon",
+   "name": "Radeyah",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/a/aa/Tw2_journal_Skalenburdon.png"
  },
  {
    "_id": 265,
-   "name": "Skjall",
+   "name": "Radowid",
    "imgUrl": "https://www.wykop.pl/cdn/c3201142/comment_159656089517kkv0UzFQDsgQb9lGPru3.jpg"
  },
  {
    "_id": 266,
-   "name": "Skurwiel Junior",
+   "name": "Ramon Tyrconnel",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/8/88/W3_SS_Cyprian_Willey.png"
  },
  {
    "_id": 267,
-   "name": "Sorel Degerlund",
+   "name": "Raymond Maarloeve",
    "imgUrl": "https://i.imgur.com/orWJ0pV.png"
  },
  {
    "_id": 268,
-   "name": "Stefan Skellen",
+   "name": "Remi Vileroy",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/0/06/G_SS_Stefan_Skellen.jpg"
  },
  {
    "_id": 269,
-   "name": "Stregobor",
+   "name": "Renauld aep Matsen",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/9/92/Gwent_cardart_neutral_stregobor.png"
  },
  {
    "_id": 270,
-   "name": "Svanrige",
+   "name": "Renfri",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/6/69/Tw3_journal_svanrige.png"
  },
  {
    "_id": 271,
-   "name": "Sylvia Anna",
+   "name": "Rico Meiersdorf",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/1/15/W3_SS_Syanna.png"
  },
  {
    "_id": 272,
-   "name": "Szepciucha",
+   "name": "Rience",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/a/a9/W3_SS_Szepciucha.png"
  },
  {
    "_id": 273,
-   "name": "Talar",
+   "name": "Roderick de Wett",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/7/79/Tw3_thaler_spy.png"
  },
  {
    "_id": 274,
-   "name": "Tamara Stenger",
+   "name": "Ronvid z Małego Łęgu",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/4/4b/W3_SS_Tamara.png"
  },
  {
    "_id": 275,
-   "name": "Tasak",
+   "name": "Rosa Var Attre",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/5/51/W3_SS_Tasak.png"
  },
  {
    "_id": 276,
-   "name": "Tavar Eggebracht",
+   "name": "Rupert Brandhuber",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/5/54/Tw3_journal_tavar.png"
  },
  {
    "_id": 277,
-   "name": "Tea",
+   "name": "Sabrina Glevissig",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/d/d7/K_Tea.jpg"
  },
  {
    "_id": 278,
-   "name": "Teofil Maria Roszko",
+   "name": "Sambor",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/3/38/Tw3_theophile_maria_rosco.png"
  },
  {
    "_id": 279,
-   "name": "Tissaia de Vries",
+   "name": "Saskia ",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/0/0d/TW1_Tissaia.jpg"
  },
  {
    "_id": 280,
-   "name": "Tomira",
+   "name": "Savolla",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/c/cb/W3_SS_Tomira_1.png"
  },
  {
    "_id": 281,
-   "name": "Toruviel",
+   "name": "Seltkirk z Gulety",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/2/28/G_SS_Toruviel.jpg"
  },
  {
    "_id": 282,
-   "name": "Traheaern var Vdyffir",
+   "name": "Serrit",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/7/7c/Gwent_cardart_nilfgaard_traheaern_var_vdyffir.jpg"
  },
  {
    "_id": 283,
-   "name": "Triss Merigold",
+   "name": "Shani",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/b/b9/FA_CA_Triss_Merigold.jpg"
  },
  {
    "_id": 284,
-   "name": "Trollololo",
+   "name": "Sheala de Tancarville",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/6/60/Gwent_cardart_northern_trollololo.jpg"
  },
  {
    "_id": 285,
-   "name": "Udalryk Brokvar",
+   "name": "Sheldon Skaggs",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/8/8a/W3_SS_Udalryk.png"
  },
  {
    "_id": 286,
-   "name": "Vandergrift",
+   "name": "Shilard Fitz-Oesterlen",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/c/c6/Gwent_cardart_northern_vandergrift.jpg"
  },
  {
    "_id": 287,
-   "name": "Vanhemar",
+   "name": "Shirru",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/2/2c/Tw2_journal_Vanhemar.png"
  },
  {
    "_id": 288,
-   "name": "Vaska",
+   "name": "Siemko",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/4/49/W1_SS_Vaska.png"
  },
  {
    "_id": 289,
-   "name": "Vattier de Rideaux",
+   "name": "Sigismund Dijkstra",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/3/35/Gwent_cardart_nilfgaard_vattier_de_rideaux.png"
  },
  {
    "_id": 290,
-   "name": "Vea",
+   "name": "Skalen Burdon",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/4/41/K_Vea.jpg"
  },
  {
    "_id": 291,
-   "name": "Velerad",
+   "name": "Skjall",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/2/2d/People_Velerad_full.png"
  },
  {
    "_id": 292,
-   "name": "Vernon Roche",
+   "name": "Sorel Degerlund",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/c/c3/Tw2_full_Vernon.png"
  },
  {
    "_id": 293,
-   "name": "Ves ",
+   "name": "Stefan Skellen",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/5/51/W3_SS_Ves.png"
  },
  {
    "_id": 294,
-   "name": "Vesemir",
+   "name": "Stregobor",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/9/9e/Gwent_cardart_neutral_vesemir_mentor.jpg"
  },
  {
    "_id": 295,
-   "name": "Vesna Hood",
+   "name": "Svanrige",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/b/b0/People_Vesna_full.png"
  },
  {
    "_id": 296,
-   "name": "Vetala",
+   "name": "Sylvia Anna",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/9/97/W1_SS_Vetala.png"
  },
  {
    "_id": 297,
-   "name": "Vilgefortz of Roggeven",
+   "name": "Szepciucha",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/7/74/Gwent_cardart_nilfgaard_vilgefortz.jpg"
  },
  {
    "_id": 298,
-   "name": "Vimme Vivaldi",
+   "name": "Talar",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/1/13/W3_SS_Vimme.png"
  },
  {
    "_id": 299,
-   "name": "Vincent Meis",
+   "name": "Tamara Stenger",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/4/44/People_Vincent_full.png"
  },
  {
    "_id": 300,
-   "name": "Viraxas",
+   "name": "Tasak",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/a/a0/G_SS_Viraxas.png"
  },
  {
    "_id": 301,
-   "name": "Visenna",
+   "name": "Tavar Eggebracht",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/5/53/Vissena.jpg"
  },
  {
    "_id": 302,
-   "name": "Vivienne de Tabris",
+   "name": "Tea",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/e/ec/W3_SS_Vivienne.png"
  },
  {
    "_id": 303,
-   "name": "Vreemde",
+   "name": "Teofil Maria Roszko",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/c/c9/G_SS_Vreemde.png"
  },
  {
    "_id": 304,
-   "name": "Witold von Everec",
+   "name": "Tissaia de Vries",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/1/1d/W3_SS_Witold_1.png"
  },
  {
    "_id": 305,
-   "name": "Wszechbóg",
+   "name": "Tomira",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/b/b9/Gwent_cardart_neutral_allgod.png"
  },
  {
    "_id": 306,
-   "name": "Xavier Lemmens",
+   "name": "Toruviel",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/e/ef/Gwent_cardart_neutral_xavier_lemmens.jpg"
  },
  {
    "_id": 307,
-   "name": "Yaevinn",
+   "name": "Traheaern var Vdyffir",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/3/3b/G_SS_Yaevinn.jpg"
  },
  {
    "_id": 308,
-   "name": "Yaren Bolt",
+   "name": "Triss Merigold",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/c/cb/FA_Yaren_Bolt.png"
  },
  {
    "_id": 309,
-   "name": "Yarpen Zigrin",
+   "name": "Trollololo",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/6/65/Tw2_journal_Yarpenzigrin.png"
  },
  {
    "_id": 310,
-   "name": "Yennefer",
+   "name": "Udalryk Brokvar",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/f/f0/The_Witcher_3_Wild_Hunt-Yennefer_of_Vengerberg.png"
  },
  {
    "_id": 311,
-   "name": "Ylona",
+   "name": "Ukryty",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/e/e7/W2_SS_Ilona.png"
  },
  {
    "_id": 312,
-   "name": "Zdenek",
+   "name": "Uzurpator",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/9/95/W1_SS_Zdenek.png"
  },
  {
    "_id": 313,
-   "name": "Zoltan Chivay",
+   "name": "Vandergrift",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/9/9e/Tw3_journal_zoltan.png"
  },
  {
    "_id": 314,
-   "name": "Zygfryd z Denesle",
+   "name": "Vanhemar",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/3/33/CA_Zygfryd_z_Denesle.png"
  },
  {
    "_id": 315,
-   "name": "Zyvik",
+   "name": "Vaska",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/7/71/Tw2_journal_Zyvik.png"
+ },
+ {
+   "_id": 316,
+   "name": "Vattier de Rideaux",
+   "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/7/70/W3_SS_Ukryty.png"
+ },
+ {
+   "_id": 317,
+   "name": "Vea",
+   "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/4/47/G_SS_Uzurpator.jpg"
+ },
+ {
+   "_id": 318,
+   "name": "Velerad",
+   "imgUrl": "https://static.wikia.nocookie.net/witcher/images/c/c4/Gwent_cardart_nilfgaard_braathens.png"
+ },
+ {
+   "_id": 319,
+   "name": "Vernon Roche",
+   "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/3/3b/G_SS_Barnaba_Beckenbauer.jpg"
+ },
+ {
+   "_id": 320,
+   "name": "Vernossiel",
+   "imgUrl": "https://static.wikia.nocookie.net/witcher/images/a/ad/TWRPG_Erland_cover.jpg"
+ },
+ {
+   "_id": 321,
+   "name": "Ves ",
+   "imgUrl": "https://static.wikia.nocookie.net/witcher/images/3/37/Gwent_cardart_nilfgaard_ivar_evil-eye.png"
+ },
+ {
+   "_id": 322,
+   "name": "Vesemir",
+   "imgUrl": "https://static.wikia.nocookie.net/witcher/images/4/4b/Gwent_cardart_nilfgaard_kolgrim.png"
+ },
+ {
+   "_id": 323,
+   "name": "Vesna Hood",
+   "imgUrl": "https://static.wikia.nocookie.net/witcher/images/f/f0/Gwent_cardart_northern_keldar.jpg"
+ },
+ {
+   "_id": 324,
+   "name": "Vetala",
+   "imgUrl": "https://static.wikia.nocookie.net/witcher/images/c/cd/Gwent_cardart_scoiatael_gezras_of_leyda.jpg"
+ },
+ {
+   "_id": 325,
+   "name": "Vigi Pomyleniec",
+   "imgUrl": "https://static.wikia.nocookie.net/witcher/images/4/45/Gwent_cardart_skellige_arnaghad.png"
+ },
+ {
+   "_id": 326,
+   "name": "Vilgefortz z Roggeven",
+   "imgUrl": "https://static.wikia.nocookie.net/witcher/images/0/0f/Gwent_cardart_monsters_idarran_of_ulivo.png"
+ },
+ {
+   "_id": 327,
+   "name": "Vimme Vivaldi",
+   "imgUrl": "https://static.wikia.nocookie.net/witcher/images/f/f3/Gwent_cardart_neutral_cosimo_malaspina.png"
+ },
+ {
+   "_id": 328,
+   "name": "Vincent Meis",
+   "imgUrl": "https://static.wikia.nocookie.net/witcher/images/3/33/Gwent_cardart_nilfgaard_affan_hillergrand.jpg"
+ },
+ {
+   "_id": 329,
+   "name": "Vincent van Moorlehem",
+   "imgUrl": "https://static.wikia.nocookie.net/witcher/images/7/78/Gwent_cardart_nilfgaard_ramon_tyrconnel.jpeg"
+ },
+ {
+   "_id": 330,
+   "name": "Viraxas",
+   "imgUrl": "https://static.wikia.nocookie.net/witcher/images/d/dd/Gwent_cardart_scoiatael_brehen.jpg"
+ },
+ {
+   "_id": 331,
+   "name": "Visenna",
+   "imgUrl": "https://static.wikia.nocookie.net/witcher/images/d/d5/Gwent_cardart_nilfgaard_letho_of_gulet.png"
+ },
+ {
+   "_id": 332,
+   "name": "Vivienne de Tabris",
+   "imgUrl": "https://static.wikia.nocookie.net/witcher/images/f/ff/Gwent_cardart_neutral_radeyah.jpg"
+ },
+ {
+   "_id": 333,
+   "name": "Vreemde",
+   "imgUrl": "https://static.wikia.nocookie.net/witcher/images/e/e1/Gwent_cardart_neutral_maraal.png"
+ },
+ {
+   "_id": 334,
+   "name": "Vysogota z Corvo",
+   "imgUrl": "https://static.wikia.nocookie.net/witcher/images/1/17/Gwent_cardart_northern_vysogota_of_corvo.jpg"
+ },
+ {
+   "_id": 335,
+   "name": "Witold von Everec",
+   "imgUrl": "https://static.wikia.nocookie.net/witcher/images/c/c6/Gwent_cardart_scoiatael_vernossiel.jpg"
+ },
+ {
+   "_id": 336,
+   "name": "Wszechbóg",
+   "imgUrl": "https://static.wikia.nocookie.net/witcher/images/2/2a/Gwent_cardart_skellige_Axel_Three-Eyes.png"
+ },
+ {
+   "_id": 337,
+   "name": "Xavier Lemmens",
+   "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/e/e3/W3_SS_Vigi.png"
+ },
+ {
+   "_id": 338,
+   "name": "Yaevinn",
+   "imgUrl": "https://static.wikia.nocookie.net/witcher/images/0/0c/Gwent_cardart_skellige_knut_the_callous.jpg"
+ },
+ {
+   "_id": 339,
+   "name": "Yaren Bolt",
+   "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/1/1c/G_SS_Nithral.jpg"
+ },
+ {
+   "_id": 340,
+   "name": "Yarpen Zigrin",
+   "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/2/21/G_SS_Skurwiel_Senior.png"
+ },
+ {
+   "_id": 341,
+   "name": "Yennefer",
+   "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/8/8b/G_SS_Caesar_Bilzen.png"
+ },
+ {
+   "_id": 342,
+   "name": "Ylona",
+   "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/3/39/G_SS_Philippe_Van_Moorlehem.png"
+ },
+ {
+   "_id": 343,
+   "name": "Zdenek",
+   "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/a/a6/G_SS_Bal_maskowy.png"
+ },
+ {
+   "_id": 344,
+   "name": "Zoltan Chivay",
+   "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/2/2e/G_SS_Vincent_Van_Moorlehem.png"
+ },
+ {
+   "_id": 345,
+   "name": "Zygfryd z Denesle",
+   "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/7/77/W3_SS_Oriana.png"
+ },
+ {
+   "_id": 346,
+   "name": "Zyvik",
+   "imgUrl": "https://static.wikia.nocookie.net/witcher/images/b/b0/Gwent_cardart_nilfgaard_fergus_var_emreis.png"
  }
 ]
