@@ -146,8 +146,8 @@
  },
  {
    "_id": 30,
-   "name": "Barnaba Bazyli",
-   "imgUrl": "https://static.wikia.nocookie.net/witcher/images/3/33/Tw3_journal_majordomus.png"
+   "name": "Barnabe-Basile Fawlty",
+   "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/3/37/W3_SS_Majordomus.png"
  },
  {
    "_id": 31,
@@ -426,7 +426,7 @@
  },
  {
    "_id": 86,
-   "name": "Dorregaray",
+   "name": "Dorregaray z Vole",
    "imgUrl": "https://static.wikia.nocookie.net/wiedzmin/images/8/87/G_SS_Dorregaray_z_Vole.jpg"
  },
  {
@@ -951,7 +951,7 @@
  },
  {
    "_id": 211,
-   "name": "Louis Merse",
+   "name": "Ludwig Merse",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/9/9a/Tw2_journal_Louismerse.png"
  },
  {
@@ -1001,7 +1001,7 @@
  },
  {
    "_id": 221,
-   "name": "Maria Louisa La Valette",
+   "name": "Maria Luiza La Valette",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/6/66/Tw3_journal_louisa.png"
  },
  {
@@ -1386,7 +1386,7 @@
  },
  {
    "_id": 298,
-   "name": "Talar",
+   "name": "Bernard Talar Dukat",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/7/79/Tw3_thaler_spy.png"
  },
  {
@@ -1506,7 +1506,7 @@
  },
  {
    "_id": 322,
-   "name": "Vesemir",
+   "name": "Vesemir z Kaer Morhen",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/9/9e/Gwent_cardart_neutral_vesemir_mentor.jpg"
  },
  {
@@ -1601,7 +1601,7 @@
  },
  {
    "_id": 341,
-   "name": "Yennefer",
+   "name": "Yennefer z Vengerbergu",
    "imgUrl": "https://static.wikia.nocookie.net/witcher/images/f/f0/The_Witcher_3_Wild_Hunt-Yennefer_of_Vengerberg.png"
  },
  {

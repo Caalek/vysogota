@@ -2,12 +2,12 @@ import json, random, asyncio, os, time
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
-import pymongo
 from pymongo import MongoClient
 load_dotenv()
 
-prefix = 'v!'
 intents = discord.Intents.default()
+intents.members = True
+prefix = 'v!'
 client = commands.Bot(command_prefix = prefix, intents = intents)
 db = MongoClient(os.environ.get('MONGODB_URI'))['vysogota']
 
@@ -123,28 +123,30 @@ async def _help(ctx):
 
 @client.command(name = 'tabela')
 async def _leaderboard_server(ctx):
-    async with ctx.typing():
-        users = db.users.find({})
-        guild_scores = []
-        for user in users:
-            for guild in user['guilds']:
-                if guild['guild_id'] == ctx.message.guild.id:
-                    guild['user'] = await client.fetch_user(user['_id'])
-                    guild_scores.append(guild)
+    users = db.users.find({})
+    guild_scores = []
+    for user in users:
+        for guild in user['guilds']:
+            if guild['guild_id'] == ctx.message.guild.id:
+                new_user = client.get_user(user['_id'])
+                if new_user is None:
+                    new_user = await client.fetch_user(user['_id'])
+                guild['user'] = new_user
+                guild_scores.append(guild)
         
-        board = ''
-        pos = 1
-        sorted_guild_scores = sorted(guild_scores, key = lambda k: k['points'], reverse=True) 
-        for score in sorted_guild_scores:
-            user = score['user']
-            points = score['points']
-            entry = f'{pos}. **{user}** - {points}'
-            board += f'{entry}\n'
-            pos += 1
+    board = ''
+    pos = 1
+    sorted_guild_scores = sorted(guild_scores, key = lambda k: k['points'], reverse=True) 
+    for score in sorted_guild_scores:
+        user = score['user']
+        points = score['points']
+        entry = f'{pos}. **{user}** - {points}'
+        board += f'{entry}\n'
+        pos += 1
         
-        embed = discord.Embed(colour = 0xae986b, title = str(ctx.guild), description = board)
-        embed.set_thumbnail(url = 'https://i.imgur.com/1Jh5dm9.png')
-        embed.set_author(icon_url = client.user.avatar_url, name = str(client.user))
+    embed = discord.Embed(colour = 0xae986b, title = str(ctx.guild), description = board)
+    embed.set_thumbnail(url = 'https://i.imgur.com/1Jh5dm9.png')
+    embed.set_author(icon_url = client.user.avatar_url, name = str(client.user))
     await ctx.send(embed = embed)
 
 if __name__ == '__main__':
