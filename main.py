@@ -118,7 +118,24 @@ async def _help(ctx):
     embed.set_thumbnail(url = client.user.avatar_url)
     embed.add_field(name = 'v!kj', value = 'Rozpoczyna zgadywanie postaci.', inline = False)
     embed.add_field(name = 'v!tabela', value = 'Pokazuje serwerową tabelę wyników tabelę wyników.', inline = False)
+    embed.add_field(name = 'v!punkty', value = 'Pokazuje liczbę punktów.', inline = False)
 
+
+    await ctx.send(embed = embed)
+
+@client.command(name = 'punkty')
+async def punkty(ctx):
+    print(ctx.author.id)
+    user = db.users.find_one({'_id': ctx.author.id})
+    print(user['guilds'])
+    for i in user['guilds']:
+        if i['guild_id'] == ctx.message.guild.id:
+            points = i['points']
+    embed = discord.Embed(
+        colour = 0xae986b,
+        title = points
+    )
+    embed.set_author(icon_url = ctx.author.avatar_url, name = str(ctx.author))
     await ctx.send(embed = embed)
 
 @client.command(name = 'tabela')
