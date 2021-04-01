@@ -7,8 +7,11 @@ load_dotenv()
 
 intents = discord.Intents.default()
 intents.members = True
-prefix = 'v!'
-client = commands.Bot(command_prefix = prefix, intents = intents)
+prefixes = ['v!', 'V!']
+client = commands.Bot(
+    command_prefix = prefixes,
+    case_insensitive = True,
+    intents = intents)
 db = MongoClient(os.environ.get('MONGODB_URI'))['vysogota']
 
 def check_exists(uid):
@@ -117,8 +120,12 @@ async def _help(ctx):
     )
     embed.set_thumbnail(url = client.user.avatar_url)
     embed.add_field(name = 'v!kj', value = 'Rozpoczyna zgadywanie postaci.', inline = False)
+<<<<<<< HEAD
     embed.add_field(name = 'v!tabela', value = 'Pokazuje serwerową tabelę wyników tabelę wyników.', inline = False)
     embed.add_field(name = 'v!punkty', value = 'Pokazuje liczbę punktów.', inline = False)
+=======
+    embed.add_field(name = 'v!tabela', value = 'Pokazuje serwerową tabelę wyników.', inline = False)
+>>>>>>> 0aa137527144f6126c9280be5e8a7a789972f221
 
 
     await ctx.send(embed = embed)
