@@ -185,11 +185,9 @@ async def _help(ctx):
     await ctx.send(embed = embed)
 
 @client.command(name = 'punkty')
-async def punkty(ctx, user):
+async def punkty(ctx, user = None):
     user = user or ctx.author
-    print(ctx.author.id)
     user = db.users.find_one({'_id': ctx.author.id})
-    print(user['guilds'])
     for i in user['guilds']:
         if i['guild_id'] == ctx.message.guild.id:
             points = i['points']
