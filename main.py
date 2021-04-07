@@ -187,7 +187,7 @@ async def _help(ctx):
 @client.command(name = 'punkty')
 async def punkty(ctx, user = None):
     user = user or ctx.author
-    user = db.users.find_one({'_id': ctx.author.id})
+    user = db.users.find_one({'_id': user.id})
     for i in user['guilds']:
         if i['guild_id'] == ctx.message.guild.id:
             points = i['points']
@@ -195,7 +195,7 @@ async def punkty(ctx, user = None):
         colour = 0xae986b,
         title = points
     )
-    embed.set_author(icon_url = ctx.author.avatar_url, name = str(ctx.author))
+    embed.set_author(icon_url = user.avatar_url, name = str(user))
     await ctx.send(embed = embed)
 
 @client.command(name = 'tabela')
