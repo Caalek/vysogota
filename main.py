@@ -57,7 +57,7 @@ def add_points(uid, guild_id, amount):
     db.users.update_one({'_id': uid}, {'$inc': {f'guilds.{index}.points': amount}})
 
 def random_character():
-    with open('characters.json') as f:
+    with open('characters.json', encoding='utf-8') as f:
         character = random.choice(json.load(f))
     return character
 
@@ -68,7 +68,7 @@ async def get_guild_scores(guild_id):
         for guild in user['guilds']:
             if guild['guild_id'] == guild_id:
                 new_user = client.get_user(user['_id'])
-                #    new_user = await client.fetch_user(user['_id'])
+                #new_user = await client.fetch_user(user['_id'])
                 guild['user'] = new_user
                 if new_user is not None:
                     guild_scores.append(guild)
@@ -86,7 +86,6 @@ def format_guild_scores(scores, start, end):
         board += f'{entry}\n'
         pos += 1
     return board
-
 
 @client.event
 async def on_ready():
@@ -115,7 +114,7 @@ async def on_reaction_add(reaction, user):
             embed = discord.Embed(colour = 0xae986b, title = str(channel.guild), description = formatted_scores)
             embed.set_thumbnail(url = 'https://i.imgur.com/1Jh5dm9.png')
             embed.set_author(icon_url = client.user.avatar_url, name = str(client.user))
-            embed.set_footer(text = f'Wysłano {datetime.now(tz).strftime("%d.%m.%Y o %H:%M:%S")}')
+            embed.set_footer(text = f'Zaktualizowano {datetime.now(tz).strftime("%d.%m.%Y o %H:%M:%S")}')
             await message.edit(embed = embed)
             await message.remove_reaction(reaction.emoji, user)
 
@@ -185,17 +184,14 @@ async def _help(ctx):
     await ctx.send(embed = embed)
 
 @client.command(name = 'punkty')
-async def punkty(ctx, user: discord.Member = None):
-    user = user or ctx.author
-    user = db.users.find_one({'_id': user.id})
-    for i in user['guilds']:
+async def _points(ctx, member: discord.Member = None):
+    member = member or ctx.author
+    member_doc = db.users.find_one({'_id': member.id})
+    for i in member_doc['guilds']:
         if i['guild_id'] == ctx.message.guild.id:
             points = i['points']
-    embed = discord.Embed(
-        colour = 0xae986b,
-        title = points
-    )
-    embed.set_author(icon_url = user.avatar_url, name = str(user))
+    embed = discord.Embed(colour = 0xae986b, title = points)
+    embed.set_author(icon_url = member.avatar_url, name = str(member))
     await ctx.send(embed = embed)
 
 @client.command(name = 'tabela')
