@@ -185,7 +185,7 @@ async def _help(ctx):
     await ctx.send(embed = embed)
 
 @client.command(name = 'punkty')
-async def punkty(ctx, user = None):
+async def punkty(ctx, user: discord.Member = None):
     user = user or ctx.author
     user = db.users.find_one({'_id': user.id})
     for i in user['guilds']:
