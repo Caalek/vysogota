@@ -1,18 +1,21 @@
-import json, random, asyncio, os, time
+import json, random, asyncio, os, time, pytz
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 from pymongo import MongoClient
+from datetime import datetime
 load_dotenv()
 
 intents = discord.Intents.default()
 intents.members = True
+intents.reactions = True
 prefixes = ['v!', 'V!']
 client = commands.Bot(
     command_prefix = prefixes,
     case_insensitive = True,
     intents = intents)
 db = MongoClient(os.environ.get('MONGODB_URI'))['vysogota']
+tz = pytz.timezone('Europe/Warsaw')
 
 def check_exists(uid):
     exists = db.users.find_one({'_id': uid})
@@ -58,11 +61,65 @@ def random_character():
         character = random.choice(json.load(f))
     return character
 
+async def get_guild_scores(guild_id):
+    users = db.users.find({})
+    guild_scores = []
+    for user in users:
+        for guild in user['guilds']:
+            if guild['guild_id'] == guild_id:
+                new_user = client.get_user(user['_id'])
+                #    new_user = await client.fetch_user(user['_id'])
+                guild['user'] = new_user
+                if new_user is not None:
+                    guild_scores.append(guild)
+    sorted_guild_scores = sorted(guild_scores, key = lambda k: k['points'], reverse=True)
+    return sorted_guild_scores
+
+def format_guild_scores(scores, start, end):
+    pos = start + 1
+    board = ''
+    
+    for score in scores[start:end]:
+        user = score['user']
+        points = score['points']
+        entry = f'{pos}. **{user}** - {points}'
+        board += f'{entry}\n'
+        pos += 1
+    return board
+
+
 @client.event
 async def on_ready():
     client.remove_command('help')
     await client.change_presence(activity = discord.Game('v!pomoc'))
     print('Bot ready.')
+
+@client.event
+async def on_reaction_add(reaction, user):
+    if not user.bot:
+        channel = reaction.message.channel
+        message = reaction.message
+        scores = await get_guild_scores(reaction.message.channel.guild.id)
+        emoji = reaction.emoji
+        last_score = int(message.embeds[0].description.split('\n')[-1].split('.')[0])
+        first_score = int(message.embeds[0].description.split('\n')[0].split('.')[0])
+
+        if reaction.emoji == '➡':
+            formatted_scores = format_guild_scores(scores, last_score, last_score + 20)
+        elif reaction.emoji == '⬅':
+            formatted_scores = format_guild_scores(scores, first_score - 21, round(last_score/10)* 10 - 20)
+        
+        if formatted_scores == '':
+            await message.remove_reaction(reaction.emoji, user)
+        else:
+            embed = discord.Embed(colour = 0xae986b, title = str(channel.guild), description = formatted_scores)
+            embed.set_thumbnail(url = 'https://i.imgur.com/1Jh5dm9.png')
+            embed.set_author(icon_url = client.user.avatar_url, name = str(client.user))
+            embed.set_footer(text = f'Wysłano {datetime.now(tz).strftime("%d.%m.%Y o %H:%M:%S")}')
+            await message.edit(embed = embed)
+            await message.remove_reaction(reaction.emoji, user)
+
+
 
 @client.command(name = 'kimjestem', aliases = ['kj'])
 async def _guess_character(ctx):
@@ -120,18 +177,16 @@ async def _help(ctx):
     )
     embed.set_thumbnail(url = client.user.avatar_url)
     embed.add_field(name = 'v!kj', value = 'Rozpoczyna zgadywanie postaci.', inline = False)
-<<<<<<< HEAD
-    embed.add_field(name = 'v!tabela', value = 'Pokazuje serwerową tabelę wyników tabelę wyników.', inline = False)
-    embed.add_field(name = 'v!punkty', value = 'Pokazuje liczbę punktów.', inline = False)
-=======
-    embed.add_field(name = 'v!tabela', value = 'Pokazuje serwerową tabelę wyników.', inline = False)
->>>>>>> 0aa137527144f6126c9280be5e8a7a789972f221
 
+    embed.add_field(name = 'v!tabela', value = 'Pokazuje serwerową tabelę wyników.', inline = False)
+    embed.add_field(name = 'v!punkty', value = 'Pokazuje liczbę punktów.', inline = False)
+    embed.add_field(name = 'v!tabela', value = 'Pokazuje serwerową tabelę wyników.', inline = False)
 
     await ctx.send(embed = embed)
 
 @client.command(name = 'punkty')
-async def punkty(ctx):
+async def punkty(ctx, user):
+    user = user or ctx.author
     print(ctx.author.id)
     user = db.users.find_one({'_id': ctx.author.id})
     print(user['guilds'])
@@ -147,31 +202,19 @@ async def punkty(ctx):
 
 @client.command(name = 'tabela')
 async def _leaderboard_server(ctx):
-    users = db.users.find({})
-    guild_scores = []
-    for user in users:
-        for guild in user['guilds']:
-            if guild['guild_id'] == ctx.message.guild.id:
-                new_user = client.get_user(user['_id'])
-                if new_user is None:
-                    new_user = await client.fetch_user(user['_id'])
-                guild['user'] = new_user
-                guild_scores.append(guild)
-        
     board = ''
     pos = 1
-    sorted_guild_scores = sorted(guild_scores, key = lambda k: k['points'], reverse=True) 
-    for score in sorted_guild_scores:
-        user = score['user']
-        points = score['points']
-        entry = f'{pos}. **{user}** - {points}'
-        board += f'{entry}\n'
-        pos += 1
+    sorted_guild_scores = await get_guild_scores(ctx.message.guild.id)
+
+    board = format_guild_scores(sorted_guild_scores, 0, 20)
         
     embed = discord.Embed(colour = 0xae986b, title = str(ctx.guild), description = board)
     embed.set_thumbnail(url = 'https://i.imgur.com/1Jh5dm9.png')
     embed.set_author(icon_url = client.user.avatar_url, name = str(client.user))
-    await ctx.send(embed = embed)
+    embed.set_footer(text = f'Wysłano {datetime.now(tz).strftime("%d.%m.%Y o %H:%M:%S")}')
+    message = await ctx.send(embed = embed)
+    await message.add_reaction('⬅')
+    await message.add_reaction('➡')
 
 if __name__ == '__main__':
     client.run(os.environ.get('TOKEN'))
