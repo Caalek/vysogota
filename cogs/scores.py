@@ -56,7 +56,7 @@ class Scores(commands.Cog):
         board = ''
         
         for score in scores[start:end]:
-            user = score['user']
+            user = score['user'].mention
             points = score['points']
             entry = f'{pos}. **{user}** - {points}'
             board += f'{entry}\n'

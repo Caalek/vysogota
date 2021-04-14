@@ -1,6 +1,4 @@
-import json, os
-from datetime import datetime
-
+import os
 
 import discord
 from discord.ext import commands
@@ -36,7 +34,7 @@ async def on_command_error(ctx, error):
         embed = discord.Embed(colour = 0xae986b, description = 'Ta komenda nie istnieje.')
         await ctx.send(embed = embed)
     else:
-        print(error)
+        raise error
 
 @bot.command(name = 'pomoc')
 async def _help(ctx):
@@ -50,7 +48,6 @@ async def _help(ctx):
 
     embed.add_field(name = 'v!tabela', value = 'Pokazuje serwerową tabelę wyników.', inline = False)
     embed.add_field(name = 'v!punkty', value = 'Pokazuje liczbę punktów.', inline = False)
-    embed.add_field(name = 'v!tabela', value = 'Pokazuje serwerową tabelę wyników.', inline = False)
 
     await ctx.send(embed = embed)
 
