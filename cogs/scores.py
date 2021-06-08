@@ -24,7 +24,12 @@ class Scores(commands.Cog):
             if reaction.emoji == '➡':
                 formatted_scores = self.format_guild_scores(scores, last_score, last_score + 20)
             elif reaction.emoji == '⬅':
-                formatted_scores = self.format_guild_scores(scores, first_score - 21, round(last_score/10)* 10 - 20)
+                second_number = last_score - 20
+                if second_number % 20 != 0:
+                    for i in range(second_number - 20, second_number + 20):
+                        if i % 20 == 0:
+                            second_number = i
+                formatted_scores = self.format_guild_scores(scores, first_score - 21, second_number)
                 
             if formatted_scores == '':
                 await message.remove_reaction(reaction.emoji, user)
